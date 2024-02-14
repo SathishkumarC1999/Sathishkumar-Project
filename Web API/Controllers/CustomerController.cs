@@ -24,7 +24,7 @@ namespace Web_API.Controllers
         }
         [HttpGet("GetById")]
         public DAL.model.Customer GetById(int Id)
-        {
+        {// test
             return _customerBll.GetById(Id);
         }
         [HttpPost("Save")]
